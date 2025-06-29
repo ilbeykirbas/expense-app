@@ -63,14 +63,14 @@ python expense_app.py
 
 ## License
 
-This project is licensed under the MIT License. See the (https://github.com/ilbeykirbas/expense-app/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ilbeykirbas/expense-app/blob/main/LICENSE) file for details.
 
 ---
 
 ## Author
 
 Developed by İlbey Kırbaş  
-GitHub: @ilbeykirbas (https://github.com/ilbeykirbas)
+GitHub: [@ilbeykirbas](https://github.com/ilbeykirbas)
 
 ---
 
