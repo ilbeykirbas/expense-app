@@ -13,27 +13,33 @@ class ExpenseApp:
         self.window.title("Expense Tracker")
         self.window.geometry("375x375")
 
+        # Amount
         tk.Label(self.window, text="Amount:").grid(row=0, column=0, sticky="e", padx=5, pady=5)
         self.amount_entry = tk.Entry(self.window)
         self.amount_entry.grid(row=0, column=1, padx=5, pady=5)
 
+        # Category
         tk.Label(self.window, text="Category:").grid(row=1, column=0, sticky="e", padx=5, pady=5)
         self.category_var = tk.StringVar(self.window)
         self.category_var.set("General")
         self.category_menu = tk.OptionMenu(self.window, self.category_var, "Food", "Transport", "Entertainment", "Utilities", "Other")
         self.category_menu.grid(row=1, column=1, padx=5, pady=5)
 
+        # Description
         tk.Label(self.window, text="Description:").grid(row=2, column=0, sticky="e", padx=5, pady=5)
         self.description_entry = tk.Entry(self.window)
         self.description_entry.grid(row=2, column=1, padx=5, pady=5)
 
+        # Date
         tk.Label(self.window, text="Date (YYYY-MM-DD):").grid(row=3, column=0, sticky="e", padx=5, pady=5)
         self.date_entry = tk.Entry(self.window)
         self.date_entry.insert(0, date.today().isoformat())
         self.date_entry.grid(row=3, column=1, padx=5, pady=5)
 
+        # Add Button
         tk.Button(self.window, text="Add Expense", command=self.add_expense).grid(row=4, column=1, sticky="e", padx=5, pady=5)
 
+        # Delete Button
         tk.Button(self.window, text="Delete Selected Expense", command=self.delete_expense).grid(row=5, column=0, padx=5, pady=5)
         
         # Expenses list title
