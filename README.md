@@ -6,12 +6,15 @@ A simple desktop GUI application built with **Python**, **Tkinter**, and **SQLit
 
 ## Features
 
--  Add expenses with amount, category, description, and date
--  View all saved expenses in a sortable table
--  Delete selected expenses with confirmation
--  Automatically calculates and displays the total amount of expenses
--  Data is saved locally in an SQLite database (`expenses.db`)
--  Simple and intuitive interface built with Tkinter
+- Save your expenses with amount, category, description and date
+- View expenses in a sortable table (Treeview)
+- Automatically calculates and displays total spending
+- Filter expenses by category and date range
+- Select and update existing expense records
+- Delete selected expenses with confirmation
+- View category-wise spending distribution in a pie chart
+- Stores all data locally using SQLite (`data/expenses.db`)
+- Clean and responsive user interface with Tkinter
 
 ---
 
@@ -38,6 +41,7 @@ expense-tracker/
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) – for GUI
 - [SQLite3](https://www.sqlite.org/index.html) – for data persistence
 - [os](https://docs.python.org/3/library/os.html) and [datetime](https://docs.python.org/3/library/datetime.html)
+- [matplotlib](https://pypi.org/project/matplotlib/) for chart display
 
 ---
 
@@ -66,13 +70,3 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 Developed by İlbey Kırbaş  
 GitHub: [@ilbeykirbas](https://github.com/ilbeykirbas)
-
----
-
-## Future Ideas
-
-- [ ] Edit/update existing expenses
-- [ ] Show total expenses per day/month
-- [ ] Filter by category or date
-- [ ] Export to CSV or Excel
-- [ ] Visualize data using graphs (e.g. pie chart)
