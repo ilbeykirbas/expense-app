@@ -9,6 +9,7 @@ A simple desktop GUI application built with **Python**, **Tkinter**, and **SQLit
 -  Add expenses with amount, category, description, and date
 -  View all saved expenses in a sortable table
 -  Delete selected expenses with confirmation
+-  Automatically calculates and displays the total amount of expenses
 -  Data is saved locally in an SQLite database (`expenses.db`)
 -  Simple and intuitive interface built with Tkinter
 
