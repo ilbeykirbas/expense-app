@@ -31,12 +31,6 @@ expense-tracker/
 
 ---
 
-## Screenshots
-
-*(You can add screenshots here if you want)*
-
----
-
 ## Technologies Used
 
 - [Python 3.x](https://www.python.org/)
